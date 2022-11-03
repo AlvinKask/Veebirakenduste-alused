@@ -11,7 +11,7 @@
 </html>
 ```
 
-#2 - Värvid
+# 2 - Värvid
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -32,7 +32,7 @@ p	{ color : red }
 </html>
 ```
 
-#3 - Hierarhia
+# 3 - Hierarhia
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -49,7 +49,7 @@ p	{ color : red }
 </html>
 ```
 
-#4 - Box
+# 4 - Box
 ```
 <!DOCTYPE HTML>
 <html lang="en">
@@ -68,7 +68,7 @@ p	{ color : red }
 </html>
 ```
 
-#5 - box.css
+# 5 - box.css
 ```
 p	{ background : yellow; width : 20em }
 p.pad	{ padding : 1em }
@@ -76,10 +76,10 @@ p.bdr	{ border : 0.5em red solid }
 p.mgn	{ margin : 2em }
 ```
 
-#6
+# 6
 ```
 ```
 
-#7
+# 7
 ```
 ```
