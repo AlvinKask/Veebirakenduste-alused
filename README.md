@@ -1,6 +1,6 @@
 www.w3schools.com
 
-[04.11.2022.zip](https://github.com/AlvinKask/Arvutivorkude-alused/files/9937815/04.11.2022.zip)
+[04.11.2022.zip](https://github.com/AlvinKask/Arvutivorkude-alused/files/9945514/04.11.2022.zip)
 
 [kavand-3.pdf](https://github.com/AlvinKask/Arvutivorkude-alused/files/9930621/kavand-3.pdf)
 
@@ -184,4 +184,152 @@ html,body { height: 100%; }
 #nav { float : left; width : 100px ; background : yellow }
 #ads { float : right; width : 100px ; background : fuchsia }
 #txt { margin: 0 100px; background : lime }
+```
+
+# 12 - Kuubikud
+```
+<! DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Columns</title>
+<style type="text/css">
+.wrapper {
+	background-color: #A0D953;
+	height: 300px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+}
+.sinine{
+	background-color: #4177C0;
+	height: 100px;
+	width: 100px;
+}
+.valge{
+	background-color: #FDFDFD;
+	height: 100px;
+	width: 100px;
+	margin-top: -100px;
+	margin-left: 200px;
+}
+.must{
+	background-color: #2B2B2B;
+	height: 100px;
+	width: 100px;
+	margin-top: 0px;
+	margin-left: 100px;
+}
+.punane{
+	background-color: #E5373A;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-top: -75px;
+	margin-left: 125px;
+}
+.oranz{
+	background-color: #FC9819;
+	height: 30px;
+	width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="sinine"></div>
+	<div class="valge"></div>
+	<div class="must"></div>
+	<div class="punane"></div>
+	<div class="oranz"></div>
+	
+</div>
+
+</body>
+</html>
+```
+
+# 13 - nav_bar_horizontal_piltideta
+```
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CosmoFarmer</title>
+<style type="text/css">
+	
+/* BASIC */
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+
+/* NAVIGATION */
+ul#mainNav {
+	border-left: 1px dashed #999999;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#mainNav li {
+	float: left;
+	width: 12em;
+}
+
+#mainNav a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border: 1px dashed #999999;
+	border-left: none;
+	display: block;
+	padding: 7px 5px 7px 30px;
+	background: #E7E7E7;
+}
+
+#mainNav a:hover {
+	background: #B2F511;
+	font-weight: bold;
+}
+
+/* special formatting for home page link */
+a#homeLink {
+	background: #E7E7E7;
+}
+
+/* styles for the "you are here" buttons */
+#home #mainNav a#homeLink,
+#feature #mainNav a#featureLink {
+	background: #FFFFFF;
+	padding-right: 15px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+#home #mainNav a#homeLink:hover,
+#feature #mainNav a#featureLink:hover {
+	color: #B2F511;
+}
+
+</style>
+</head>
+<body id="feature">
+  <ul id="mainNav">
+    <li><a href="http://www.delfi.ee" id="homeLink">Home</a></li>
+    <li><a href="04.11.22.html" id="featureLink">Features</a></li>
+    <li><a href="#" id="expertLink">Experts</a></li>
+    <li><a href="#" id="quizLink">Quiz</a></li>
+    <li><a href="#" id="projectLink">Projects</a></li>
+    <li><a href="#" id="horoscopeLink">Horoscopes</a></li>
+  </ul>
+
+</body>
+</html>
 ```
