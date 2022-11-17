@@ -1,6 +1,6 @@
 www.w3schools.com
 
-[17.11.2022.zip](https://github.com/AlvinKask/Arvutivorkude-alused/files/10029945/17.11.2022.zip)
+[17.11.2022.zip](https://github.com/AlvinKask/Veebirakenduste-alused/files/10031187/17.11.2022.zip)
 
 [kavand-3.pdf](https://github.com/AlvinKask/Arvutivorkude-alused/files/9930621/kavand-3.pdf)
 
@@ -386,4 +386,31 @@ p:first-letter { font-size : 200% ; color : red }
 p:first-line { background-color : yellow }
 *:lang(es) { background-color : lime }
 span:first-child { background-color : aqua }
+```
+
+# 12 - paiknemine
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Background Position</title>
+<link rel="stylesheet" type="text/css" href="paiknemine.css">
+</head>
+<body>
+<p>Content Box</p>
+<p><span>Top Left - Default</span></p>
+<p id="p1"><span>Bottom Left</span></p>
+<p id="p2"><span>20% 50%</span></p>
+</body>
+</html>
+```
+
+### 12 - paiknemine.css
+```
+span { background : yellow ; margin 0 0 0 10em }
+p { background: url(tile.png) fuchsia no-repeat ; height : 3.5em }
+p#p1 { background-position : bottom left }
+p#p2 { background-position : 20% 50% }
+body { background: url(tile.png) no-repeat bottom right fixed }
 ```
