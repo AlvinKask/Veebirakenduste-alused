@@ -333,3 +333,56 @@ a#homeLink {
 </body>
 </html>
 ```
+
+# 13 - Varjutamine & ümarad nurgad & liikumine
+```
+<! DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Box-Shadow</title>
+<link rel="stylesheet" type="text/css" href="box-shadow.css"
+</head>
+<body>
+	<div id="box-1"> </div>
+	<div id="box-2"> </div>
+	<div id="box-3"> </div>
+</body>
+</html>
+```
+
+# 14 - box-shadow.css
+```
+div { float : left ; margin : 10px ; height : 120px ; width : 120px ; border: 1px solid black }
+div#box-1 { border-radius : 40px ; box-shadow : 5px 5px 10px gray }
+div#box-2 { border-top-left-radius : 50px ; border-bottom-right-radius : 50px ;box-shadow : 10px 10px 10px lime inset }
+div#box-3 { border-radius : 165px ; box-shadow : 0 0 10px 10px aqua }
+
+div#box-1:active { border-radius : 40px ; box-shadow : 5px 5px 10px gray ; transform : rotate( 45deg) }
+div#box-2:hover	{ border-top-left-radius : 50px ; border-bottom-right-radius : 50px ;box-shadow : 10px 10px 10px lime inset; transform : scale( 0.5) }
+div#box-3:active { border-radius : 25px ; box-shadow : 0 0 10px 10px aqua ; transform : rotateZ(180deg) }
+```
+
+# 15 - Highlighting
+```
+<! DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Highlighting content</title>
+<link rel="stylesheet" type="text/css" href="highlight.css"
+</head>
+<body>
+	<p> In what was once Texcoco lake, birthplace of <span>pre-Hispanic civilizations</span>, lies the <span lang = "es">Ciudad de los Palacios</span> (City of Places) that is today, Mexico City.</p>
+	
+	<p>Mexico City offers visitors a great many different interesting sites to visit, from <span>pre-Columbian Mexico</span> to modern and <span>cosmopolitan 21st century Mexico</span>.</p>
+</body>
+</html>
+
+# 15 - highlight.css
+```
+p:first-letter { font-size : 200% ; color : red }
+p:first-line { background-color : yellow }
+*:lang(es) { background-color : lime }
+span:first-child { background-color : aqua }
+```
