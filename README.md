@@ -74,7 +74,7 @@ p	{ color : red }
 </html>
 ```
 
-# 5 - box.css
+## 4.1 - box.css
 ```
 p	{ background : yellow; width : 20em }
 p.pad	{ padding : 1em }
@@ -82,7 +82,7 @@ p.bdr	{ border : 0.5em red solid }
 p.mgn	{ margin : 2em }
 ```
 
-# 6 - Taust 1
+# 5 - Taust 1
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -100,7 +100,7 @@ p.mgn	{ margin : 2em }
 </html>
 ```
 
-# 7 - background.css
+## 5.1 - background.css
 ![tile](https://user-images.githubusercontent.com/115221752/199756486-98a255b4-32f0-44bc-a8ac-9092f3506728.png)
 
 ```
@@ -111,7 +111,7 @@ p#y	{ background-repeat : repeat-y }
 p#no	{ background-repeat : no-repeat }
 ```
 
-# 8 - Taust 2
+# 6 - Taust 2
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -128,7 +128,7 @@ p#no	{ background-repeat : no-repeat }
 </html>
 ```
 
-# 9 - background2.css
+## 6.1 - background2.css
 ![flower](https://user-images.githubusercontent.com/115221752/199756536-9c0a08c1-57c4-4067-9329-ecc2aeb7c829.png)
 
 ```
@@ -138,7 +138,7 @@ div#box-2	{ background-size : 50% 50% }
 div#box-3	{ background-size : 200% 200% }
 ```
 
-# 10 - Kodulehe alge
+# 7 - Kodulehe alge
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -165,7 +165,7 @@ div#box-3	{ background-size : 200% 200% }
 </html>
 ```
 
-# 11 - columns.css
+## 7.1 - columns.css
 ```
 * { margin: 0; padding : 0 ; text-align : center }
 
@@ -186,7 +186,7 @@ html,body { height: 100%; }
 #txt { margin: 0 100px; background : lime }
 ```
 
-# 12 - Kuubikud
+# 8 - Kuubikud
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -251,7 +251,7 @@ html,body { height: 100%; }
 </html>
 ```
 
-# 13 - nav_bar_horizontal_piltideta
+# 9 - nav_bar_horizontal_piltideta
 ```
 <!DOCTYPE html >
 <html>
@@ -334,7 +334,7 @@ a#homeLink {
 </html>
 ```
 
-# 13 - Varjutamine & ümarad nurgad & liikumine
+# 10 - Varjutamine & ümarad nurgad & liikumine
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -351,7 +351,7 @@ a#homeLink {
 </html>
 ```
 
-# 14 - box-shadow.css
+## 10.1 - box-shadow.css
 ```
 div { float : left ; margin : 10px ; height : 120px ; width : 120px ; border: 1px solid black }
 div#box-1 { border-radius : 40px ; box-shadow : 5px 5px 10px gray }
@@ -363,7 +363,7 @@ div#box-2:hover	{ border-top-left-radius : 50px ; border-bottom-right-radius : 5
 div#box-3:active { border-radius : 25px ; box-shadow : 0 0 10px 10px aqua ; transform : rotateZ(180deg) }
 ```
 
-# 15 - Highlighting
+# 11 - Highlighting
 ```
 <! DOCTYPE HTML>
 <html lang="en">
@@ -380,7 +380,7 @@ div#box-3:active { border-radius : 25px ; box-shadow : 0 0 10px 10px aqua ; tran
 </html>
 ```
 
-# 15 - highlight.css
+## 11.1 - highlight.css
 ```
 p:first-letter { font-size : 200% ; color : red }
 p:first-line { background-color : yellow }
