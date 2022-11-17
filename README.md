@@ -74,7 +74,7 @@ p	{ color : red }
 </html>
 ```
 
-## 4.1 - box.css
+### 4 - box.css
 ```
 p	{ background : yellow; width : 20em }
 p.pad	{ padding : 1em }
@@ -100,7 +100,7 @@ p.mgn	{ margin : 2em }
 </html>
 ```
 
-## 5.1 - background.css
+### 5 - background.css
 ![tile](https://user-images.githubusercontent.com/115221752/199756486-98a255b4-32f0-44bc-a8ac-9092f3506728.png)
 
 ```
@@ -128,7 +128,7 @@ p#no	{ background-repeat : no-repeat }
 </html>
 ```
 
-## 6.1 - background2.css
+### 6 - background2.css
 ![flower](https://user-images.githubusercontent.com/115221752/199756536-9c0a08c1-57c4-4067-9329-ecc2aeb7c829.png)
 
 ```
@@ -165,7 +165,7 @@ div#box-3	{ background-size : 200% 200% }
 </html>
 ```
 
-## 7.1 - columns.css
+### 7 - columns.css
 ```
 * { margin: 0; padding : 0 ; text-align : center }
 
@@ -351,7 +351,7 @@ a#homeLink {
 </html>
 ```
 
-## 10.1 - box-shadow.css
+### 10 - box-shadow.css
 ```
 div { float : left ; margin : 10px ; height : 120px ; width : 120px ; border: 1px solid black }
 div#box-1 { border-radius : 40px ; box-shadow : 5px 5px 10px gray }
@@ -380,7 +380,7 @@ div#box-3:active { border-radius : 25px ; box-shadow : 0 0 10px 10px aqua ; tran
 </html>
 ```
 
-## 11.1 - highlight.css
+### 11 - highlight.css
 ```
 p:first-letter { font-size : 200% ; color : red }
 p:first-line { background-color : yellow }
