@@ -1,6 +1,6 @@
 www.w3schools.com
 
-[04.11.2022.zip](https://github.com/AlvinKask/Arvutivorkude-alused/files/9945514/04.11.2022.zip)
+[17.11.2022.zip](https://github.com/AlvinKask/Arvutivorkude-alused/files/10029945/17.11.2022.zip)
 
 [kavand-3.pdf](https://github.com/AlvinKask/Arvutivorkude-alused/files/9930621/kavand-3.pdf)
 
