@@ -4,6 +4,8 @@ https://www.csszengarden.com/
 
 https://www.codecademy.com/
 
+Loo oma konto... teha läbi: Learn HTML ja Learn CSS. Tulemuste link saata Heiki Terras'ele.
+
 [02.12.2022.zip](https://github.com/AlvinKask/Veebirakenduste-alused/files/10141165/02.12.2022.zip)
 
 [kavand-3.pdf](https://github.com/AlvinKask/Arvutivorkude-alused/files/9930621/kavand-3.pdf)
