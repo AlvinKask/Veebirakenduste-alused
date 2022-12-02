@@ -414,3 +414,251 @@ p#p1 { background-position : bottom left }
 p#p2 { background-position : 20% 50% }
 body { background: url(tile.png) no-repeat bottom right fixed }
 ```
+
+### 13 - Checkbox
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Checkbox Example</title>
+</head>
+<body>
+<form method="GET" action="http:localhost/echo.pl">
+<p>Yes, I would like to receive details
+<input type="checkbox" name="Ask For" value="Details" checked>
+</p>
+<fieldset>
+<legend>Activities of Interest...</legend>
+Sailing <input type="checkbox" name="Do" value="Sail"><br>
+Walking <input type="checkbox" name="Do" value="Walk"><br>
+Driving <input type="checkbox" name="Do" value="Drive"><br>
+Skiing <input type="checkbox" name="Do" value="Ski"><br>
+Jogging <input type="checkbox" name="Do" value="Jog"><br>
+</fieldset>
+<p>
+<input type="submit" value="Submit form">
+</p>
+</form>
+</body>
+</html>
+```
+
+### 14 - Radio
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Radio Button Example</title>
+</head>
+<body>
+<form method="GET" action="http:localhost/echo.pl">
+<p>Choose only one answer...</p>
+<fieldset>
+<legend>What kind of language is HTML?</legend>
+Scripting <input type="radio" name="Definition" value="Scripting"><br>
+Markup <input type="radio" name="Definition" value="Markup"><br>
+Programming <input type="radio" name="Definition" value="Programming" checked>
+</fieldset>
+<p>
+<input type="submit" value="Submit form">
+</p>
+</form>
+</body>
+</html>
+```
+
+### 15 - Dropdown
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dropdown</title>
+</head>
+<body>
+<form method="GET" action="http:localhost/echo.pl">
+<select name="HTML List Type Selector One" size="4">
+<optgroup label="List Type">
+<option value="UL">Unordered List</option>
+<option value="OL" selected>Ordered List</option>
+<option value="DL">Definition List</option>
+</optgroup>
+</select>
+<input type="submit" value="Submit form">
+</p>
+</form>
+</body>
+</html>
+```
+
+### 16 - Text input
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Text input</title>
+</head>
+<body>
+<form method="GET" action="http:localhost/echo.pl">
+<dl>
+<dt> User Name:</dt>
+<dd><input type="text" name="Name"> </dd>
+<dt> Password:</dt>
+<dd><input type="password" name="Password"> </dd>
+<dt> City:</dt>
+<dd><input type="text" name="City" value="Dallas"> </dd>
+<dt> Area:</dt>
+<dd><input type="text" name="Area" value="Downtown" disabled> </dd>
+<dt> State:</dt>
+<dd><input type="text" name="State" value="Texas" readonly> </dd>
+<dt> Zip Code:</dt>
+<dd><input type="text" name="Zip Code" size="5" maxlength="5"> </dd>
+</dl>
+<p><input type="submit" value="Submit form"></p>
+</form>
+</body>
+</html>
+```
+
+### 17 - Text area
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Text area</title>
+</head>
+<body>
+<form method="POST" action="http:localhost/echo.pl">
+<textarea name="The Future Web" rows="10" cols="65">
+HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard.
+</textarea>
+<p><input type="submit" value="Submit form"></p>
+</form>
+</body>
+</html>
+```
+
+### 18 - Audio
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Audio</title>
+</head>
+<body>
+<audio src="audio.ogg" autoplay>Fallback Message</audio>
+<audio controls>
+<source src="audio.mp3" type="audio/mpeg">
+<source src="audio.ogg" type="audio/ogg">
+[Fallback Message]
+</audio>
+</body>
+</html>
+```
+
+### 19 - Video
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Video</title>
+</head>
+<body>
+<video controls>
+<source src="video.mp4" type="video/mpeg">
+<source src="video.ogv" type="video/ogg">
+[Fallback Message]
+</video>
+</body>
+</html>
+```
+
+### 20 - Pdf
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pdf</title>
+</head>
+<body>
+<p>This is text in the main document that...<br>
+<object type="application/pdf" data="piechart.pdf" width="580" height="310">
+<strong> [PDF Document - Requires Adobe Reader Plugin] </strong>
+</object>
+<br>...continues around an embedded resource.</p>
+</body>
+</html>
+```
+
+### 21 - Animation
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Animation</title>
+<link rel="stylesheet" href="Animation.css">
+</head>
+<body>
+<div id="box-1"></div>
+<div id="box-2"></div>
+<div id="box-3"></div>
+</body>
+</html>
+```
+
+### 22 - Animation.css
+```
+div { position: absolute ; top: 10px ; height : 120px ; width : 120px ; border : 5px solid black }
+div#box-1 { background : yellow ; left : 50px ; z-index : 1}
+div#box-2 { background : lime ; left : 400px ; z-index : 1}
+div#box-3 { background-color : aqua ; left : 50px ; border-radius : 65px ; Z-index :2}
+@-ms-keyframes slide { from { left : 50px } to { left : 400px } }
+@-moz-keyframes slide { from { left : 50px } to { left : 400px } }
+@-webkit- keyframes slide { from { left : 50px } to { left : 400px } }
+@-o-keyframes slide { from { left : 50px } to { left : 400px } }
+@keyframes slide { from { left : 50px } to { left : 400px } }
+div#box-3
+{
+-ms-animation : slide 3s alternate infinite ;
+-moz-animation : slide 3s alternate infinite ;
+-webkit-animation : slide 3s alternate infinite ;
+-o-animation : slide 3s alternate infinite ;
+animation : slide 3s alternate infinite ;
+}
+```
+
+### 23 - Flex
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Animation</title>
+<link rel="stylesheet" type="text/css" href="flex.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="box-1">Flex=1</p></div>
+<div id="box-2">Flex=2</p></div>
+<div id="box-3">Flex=3</p></div>
+</div>
+</body>
+</html>
+```
+
+### 24 - Flex.css
+```
+div#wrapper { height : 120px ; width: 95% ; border: 5px solid black ; text-align: center }
+div#wrapper { display: -ms-flexbox ; display: -moz-box ; display: -webkit-box ; display: -o-flexbox; display: box; display: flexbox }
+div#box-1 { background: yellow ; -ms-flex: 1; -moz-box-flex: 1 ; -webkit-box-flex: 1 ; -o-flex: 1; box-flex: 1; flex: 1 }
+div#box-2 { background: lime ; -ms-flex: 2; -moz-box-flex: 2 ; -webkit-box-flex: 2 ; -o-flex: 2; box-flex: 2; flex: 2 }
+div#box-3 { background: aqua ; -ms-flex: 3; -moz-box-flex: 3 ; -webkit-box-flex: 3 ; -o-flex: 3; box-flex: 3; flex: 3 }
+```
