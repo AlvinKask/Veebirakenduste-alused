@@ -668,3 +668,40 @@ div#box-1 { background: yellow ; -ms-flex: 1; -moz-box-flex: 1 ; -webkit-box-fle
 div#box-2 { background: lime ; -ms-flex: 2; -moz-box-flex: 2 ; -webkit-box-flex: 2 ; -o-flex: 2; box-flex: 2; flex: 2 }
 div#box-3 { background: aqua ; -ms-flex: 3; -moz-box-flex: 3 ; -webkit-box-flex: 3 ; -o-flex: 3; box-flex: 3; flex: 3 }
 ```
+
+# 25 - Grid
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<style>
+.grid-container {
+display:grid;
+grid-template-columns: auto auto auto auto;
+gap: 10px;
+background-color: lime;
+padding: 10px;
+}
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>The grid-template-columns Property</h1>
+<div class="grid-container">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+<div>7</div>
+<div>8</div>
+</div>
+</body>
+</html>
+```
