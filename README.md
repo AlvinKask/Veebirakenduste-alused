@@ -705,3 +705,68 @@ font-size: 30px;
 </body>
 </html>
 ```
+
+# 26 - Inline Frame Example
+```
+<! DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Inline Frame Example</title>
+<link rel="stylesheet" href="iframe.css">
+</head>
+<body>
+<article class="left220">
+<h3>Concept Cars</h3>
+<p>Many of the creative...</p>
+</article>
+<aside>
+<iframe src="concept.html" width="300" height="200">
+<strong>[Framed Document - Requires iframe Support]</strong>
+</iframe>
+</aside>
+</body>
+</html>
+```
+
+# 27 - iframe.css
+```
+p {font-family:sans-serif;}
+
+article.left220 {width:220px; float:left; margin-right:20px;}
+
+body.concept {width:1500px}
+p.concept {width:300px; float:left; margin:0;}
+```
+
+# 28 - concept.html
+```
+<! DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ConceptCars</title>
+<link rel="stylesheet" href="iframe.css">
+</head>
+<body class="concept">
+<p class="concept"><strong>1. Renault Dezir</strong><br>
+<img src="dezir.jpg">
+</p>
+<p class="concept"><strong>2. Lamborghini Sesto Elemento</strong><br>
+<img src="lambo.jpg">
+</p>
+<p class="concept"><strong>3. Jaguar C-X75</strong><br>
+<img src="jaguar.jpg">
+</p>
+<p class="concept"><strong>4. Lotus Esprit</strong><br>
+<img src="lotus.jpg">
+</p>
+<p class="concept"><strong>5. Audi Quattro</strong><br>
+<img src="audi.jpg">
+</p>
+</body>
+</html>
+```
+
+# 28 - 
+```
