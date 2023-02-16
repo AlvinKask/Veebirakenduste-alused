@@ -773,3 +773,5 @@ p.concept {width:300px; float:left; margin:0;}
 
 # 28 - 
 ```
+[liquid.zip](https://github.com/AlvinKask/Veebirakenduste-alused/files/10754995/liquid.zip)
+
